@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sspBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="headerSlate" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Bag Shape -->
+  <path d="M 35 30 L 165 30 L 175 220 C 175 228, 168 232, 160 232 L 40 232 C 32 232, 25 228, 25 220 Z" 
+        fill="url(#sspBg)" stroke="#94a3b8" stroke-width="1.5" filter="url(#shadow)"/>
+  
+  <!-- Stitching -->
+  <line x1="30" y1="36" x2="170" y2="36" stroke="#475569" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="32" y1="42" x2="168" y2="42" stroke="#475569" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Header Stripe -->
+  <path d="M 33 46 L 167 46 L 169 76 L 31 76 Z" fill="url(#headerSlate)"/>
+  <text x="100" y="66" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">SINGLE SUPER PHOSPHATE</text>
+
+  <!-- Big SSP Title -->
+  <text x="100" y="115" font-family="system-ui, sans-serif" font-size="30" font-weight="950" fill="#1e293b" text-anchor="middle">SSP</text>
+  
+  <text x="100" y="138" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#475569" text-anchor="middle">PHOSPHORUS + SULPHUR</text>
+
+  <!-- Nutrient Highlight -->
+  <rect x="36" y="160" width="128" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="100" y="176" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#0f172a" text-anchor="middle">PHOSPHORUS (P): 16%</text>
+  <text x="100" y="189" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#0f172a" text-anchor="middle">SULPHUR (S): 11%</text>
+
+  <!-- Pack Weight Banner -->
+  <rect x="55" y="202" width="90" height="20" rx="4" fill="#cbd5e1"/>
+  <text x="100" y="216" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e293b" text-anchor="middle">NET WT. 50 KG</text>
+</svg>

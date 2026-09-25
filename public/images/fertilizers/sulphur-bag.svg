@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sulphurBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <linearGradient id="headerYellow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Bag Shape -->
+  <path d="M 35 30 L 165 30 L 175 220 C 175 228, 168 232, 160 232 L 40 232 C 32 232, 25 228, 25 220 Z" 
+        fill="url(#sulphurBg)" stroke="#eab308" stroke-width="1.5" filter="url(#shadow)"/>
+  
+  <!-- Stitching -->
+  <line x1="30" y1="36" x2="170" y2="36" stroke="#ca8a04" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="32" y1="42" x2="168" y2="42" stroke="#ca8a04" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Header Stripe -->
+  <path d="M 33 46 L 167 46 L 169 76 L 31 76 Z" fill="url(#headerYellow)"/>
+  <text x="100" y="66" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">SOIL REPLENISHMENT</text>
+
+  <!-- Title -->
+  <text x="100" y="112" font-family="system-ui, sans-serif" font-size="22" font-weight="950" fill="#713f12" text-anchor="middle">BENTONITE</text>
+  <text x="100" y="134" font-family="system-ui, sans-serif" font-size="22" font-weight="950" fill="#854d0e" text-anchor="middle">SULPHUR</text>
+
+  <!-- Nutrient Highlight -->
+  <rect x="40" y="155" width="120" height="32" rx="6" fill="#ffffff" stroke="#fde047" stroke-width="1.2"/>
+  <text x="100" y="176" font-family="system-ui, sans-serif" font-size="14" font-weight="850" fill="#713f12" text-anchor="middle">SULPHUR (S) 90%</text>
+
+  <!-- Pack Weight Banner -->
+  <rect x="55" y="202" width="90" height="20" rx="4" fill="#fef08a"/>
+  <text x="100" y="216" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#713f12" text-anchor="middle">NET WT. 25 KG</text>
+</svg>
